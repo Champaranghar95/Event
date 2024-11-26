@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.auth-buttons button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+.login {
+    background-color: #555;
+    color: white;
+}
+.signup {
+    background-color: #f90;
+    color: white;
+}
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: url('stadium.jpg') no-repeat center center/cover;
+    color: white;
+}
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+.hero p {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.hero button {
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #f90;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+.teams, .categories, .membership {
+    padding: 50px 20px;
+    text-align: center;
+}
+.team-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.team-card {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+}
+.team-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+.category-buttons button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    background-color: #333;
+    color: white;
+}
+.membership-options {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.membership-option {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: left;
+}
+.membership-option h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.membership-option ul {
+    list-style: none;
+    padding: 0;
+}
+.membership-option ul li {
+    margin-bottom: 10px;
+}
+.membership-option button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #f90;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.social-media a {
+    margin: 0 10px;
+}
+.social-media img {
+    width: 24px;
+    height: 24px;
+}
