@@ -52,7 +52,7 @@ git clone https://github.com/your-username/Event.git
 cd Event
 
 # Set the original repository as "upstream" for syncing later
-git remote add upstream https://github.com/Champaranghar95/Event.git
+git remote add upstream https://github.com/your-username/Event.git
 
 # Create and switch to a new branch
 git checkout -b my-feature-branch
