@@ -16,23 +16,22 @@ Navigate to your forked repository on GitHub (you can find it in your GitHub pro
 On the right side of the page, click the "Code" button, then copy the URL (either HTTPS or SSH).
 For example:
 
-bash
-Copy code
-https://github.com/your-username/Event.git
+***Copy code
+# https://github.com/your-username/Event.git
 4. Clone the Repository to Your Local Machine
 Now that you have the repository URL, open your terminal (or command prompt) and clone the repository with the following command:
 
 bash
 Copy code
-git clone https://github.com/your-username/Event.git
+# git clone https://github.com/your-username/Event.git
 Make sure to replace your-username with your actual GitHub username.
 
 5. Navigate to the Repository Directory
 Once the cloning is complete, navigate to the cloned repository directory:
 
 bash
-Copy code
-cd Event
+***Copy code
+# cd Event
 Summary of Forking Steps:
 Visit the repository on GitHub.
 Click the "Fork" button in the top-right corner.
